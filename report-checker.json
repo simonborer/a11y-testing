@@ -1,0 +1,3046 @@
+const data = [
+{
+    "url": "http://humber.ca/makingaccessiblemedia/index.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/index.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\">\t\n\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Making Accessible Media: Documenting our Process\" src=\"https://www.youtube.com/embed/bqiw4Sk7AYU?rel=0\" frameborder=\"0\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/index.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "0\">\n\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Making Accessible Media – ASL Interpretation\" src=\"https://www.youtube.com/embed/ufwgEeRzw5A?rel=0\" frameborder=\"0\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/01.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/02.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/02.php",
+    "message": "Attribute “webkitallowfullscreen” not allowed on element “iframe” at this point.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/lang/en/sinead_burke_why_design_should_include_everyone\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen title=\"Why design should include everyone\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/02.php",
+    "message": "Attribute “mozallowfullscreen” not allowed on element “iframe” at this point.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/lang/en/sinead_burke_why_design_should_include_everyone\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen title=\"Why design should include everyone\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/02.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/lang/en/sinead_burke_why_design_should_include_everyone\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen title=\"Why design should include everyone\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/02.php",
+    "message": "The “scrolling” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/lang/en/sinead_burke_why_design_should_include_everyone\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen title=\"Why design should include everyone\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/02.php",
+    "message": "Bad value “transcript/Sinead Burke Ted Talk transcript.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<a href=\"transcript/Sinead Burke Ted Talk transcript.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/03.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/04.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/04.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</div>\n\t\t</s"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/04.php",
+    "message": "Unclosed element “section”.",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/04.php",
+    "message": "Stray end tag “section”.",
+    "extract": "\t</div>\n\t\t</section>\n\n\t\t<s"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/04.php",
+    "message": "Stray end tag “div”.",
+    "extract": "ction>\t\t\n\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/05.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/06.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/07.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/08.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/08.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn mt10\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/09.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/09.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TgfX0ieNWnA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/09.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/09.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/09.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/09.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/09.php",
+    "message": "Bad value “transcript/Roland Galarneau.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<a href=\"transcript/Roland Galarneau.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/10.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/10.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/XOnGmXIUyGc\" title=\"ASL alphabet\" frameborder=\"0\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/10.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/10.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/10.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/10.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/11.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/11.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/T4U8pvNpsMo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/11.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2vN-_jdz54M\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/11.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/11.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/11.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/11.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/bfT2a5SGDFA\" title=\"Indian Sign Language Council of 1930\" frameborder=\"0\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Bad value “transcript/Indian Sign Language Council transcript.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<a href=\"transcript/Indian Sign Language Council transcript.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10 \">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Duplicate attribute “title”.",
+    "extract": "\t\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0kOUlxhLHso\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen title=\"Oneid"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "een title=\"Oneida Thanksgiving Address\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Bad value “transcript/Oneida Sign Language Thanksgiving Message.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\">\n\t\t\t\t\t\t\t<a href=\"transcript/Oneida Sign Language Thanksgiving Message.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10 \">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/3HDm3kx3rhY\" title=\"How To Sign In BASL (Black American Sign Language) | Strong Black Lead\" frameborder=\"0\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oiLltM1tJ9M\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/12.php",
+    "message": "Bad value “transcript/Signing Black in America Transcript.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<a href=\"transcript/Signing Black in America Transcript.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10 \">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/13.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/13.php",
+    "message": "Duplicate ID “further-readings”.",
+    "extract": "p>\n\n\t\t\t\t\t\t<div class=\"panel-group\" id=\"further-readings\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/13.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\">\n\n\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Juan Olarte Interview-AODA\" src=\"https://www.youtube.com/embed/yMgkNARPMRo?rel=0\" frameborder=\"0\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/13.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "0\">\n\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/75eb4spYVyg?rel=0\" title=\"An interview with Juan Olarte - An Accessibility Consultant\" frameborder=\"0\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/14.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/14.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "20\">\n\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn multiplequestions mt10 tts\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/15.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/01/16.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/01.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/02.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/02.php",
+    "message": "Attribute “webkitallowfullscreen” not allowed on element “iframe” at this point.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/stella_young_i_m_not_your_inspiration_thank_you_very_much\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen title=\"I am not your inspiration, thank you very much\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/02.php",
+    "message": "Attribute “mozallowfullscreen” not allowed on element “iframe” at this point.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/stella_young_i_m_not_your_inspiration_thank_you_very_much\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen title=\"I am not your inspiration, thank you very much\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/02.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/stella_young_i_m_not_your_inspiration_thank_you_very_much\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen title=\"I am not your inspiration, thank you very much\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/02.php",
+    "message": "The “scrolling” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/stella_young_i_m_not_your_inspiration_thank_you_very_much\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" webkitAllowFullScreen mozallowfullscreen allowFullScreen title=\"I am not your inspiration, thank you very much\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/02.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4bNAuL9Ndu8?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IocLkk3aYlk?rel=0\" frameborder=\"0\" allowfullscreen title=\"we are the super humans - Rio Paralympics 2016 trailer\"><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": " trailer\"><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "railer\"><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Element “p” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<p class=\"tts no-show\">Right "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn mt10\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bjvYZ2jvvp8?rel=0\" frameborder=\"0\" allowfullscreen title=\"Yes I Can, If\"><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": " Can, If\"><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "an, If\"><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/q1YIQFYEgGs?rel=0\" frameborder=\"0\" allowfullscreen title=\"Will Pike Interview on 'yes I can... if video' \"><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": " video' \"><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ideo' \"><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Duplicate ID “exampleTextarea”.",
+    "extract": "\t\n\t\t\t\t\t\t\t\t<textarea class=\"form-control mt20 mb40-sm\" id=\"exampleTextarea\" aria-label=\"List some of the negative aspects of disability being portrayed in the video.\" rows=\"5\"></text"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/03.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn mt10\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/04.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/05.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/06.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/06.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/Yvf4HmGVm-U?rel=0\" title=\"Imagine a Journalist - ASL and Open Captions\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/07.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/07.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/i1JQXe176e4?rel=0\" title=\"Disabled Journalist Panel - Open Captions & ASL\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/07.php",
+    "message": "Bad value “transcript/Disabled Journalist Panel.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<a href=\"transcript/Disabled Journalist Panel.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/07.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/4Vhs46rVx4U?rel=0\" title=\"Interview with Sheyfali Saujani\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/07.php",
+    "message": "Bad value “transcript/Sheyfali interview transcript.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<a href=\"transcript/Sheyfali interview transcript.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/08.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/08.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/xbu8HXXN2n8?rel=0\" title=\"An interview with Ing Wong Ward\" frameborder=\"0\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/09.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/09.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/7dLTgMTMeKI?rel=0\" title=\"Disability Representation in the Media and Popular Culture\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/10.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/10.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/BMQiXf_jJTQ\" title=\"Reframing Disablity - Open Captions & ASL\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/11.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/12.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/13.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/13.php",
+    "message": "Stray end tag “section”.",
+    "extract": "ection>\n\t\t</section>\n\n\t\t<s"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/14.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/14.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "0\">\n\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn multiplequestions mt10 tts\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/15.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/15.php",
+    "message": "Bad value “https://www.glaad.org/sites/default/files/GLAAD WHERE WE ARE ON TV 2019 2020.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "ss=\"mb30\"><a href=\"https://www.glaad.org/sites/default/files/GLAAD WHERE WE ARE ON TV 2019 2020.pdf\" target=\"_blank\">The GL"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/16.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "Stray end tag “section”.",
+    "extract": "ection>\n\t\t</section>\n\n\t\t<s"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/xGa5snafu38?rel=0\" title=\"Cody Bennet Intro\" frameborder=\"0\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "Bad value “transcript/Cody introduction transcript.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\">\n\t\t\t\t\t\t\t<a href=\"transcript/Cody introduction transcript.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/l-6e1_S7pDQ\" title=\"Love beyond accessibility\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/5CRQx6YUIUs\" title=\"Spiking\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/wDulhbZUxI0\" title=\"Michael\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/VWH_YjVvzaA\" title=\"Shawn Mendes Team\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/gO201st2oQc\" title=\"Mountain\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "Bad value “transcript/describing each other (CICE) transcript.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\">\n\t\t\t\t\t\t\t<a href=\"transcript/describing each other (CICE) transcript.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/02/field-notes.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/1_4-H_ouKNg\" title=\"Final Thoughts\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/01.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/01.php",
+    "message": "Bad value “pdfs/MOD3_DCMP captioning key2.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": ">\n\t\t\t\t\t<p><a href=\"pdfs/MOD3_DCMP captioning key2.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10 width-85\">Descri"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/01.php",
+    "message": "Stray end tag “div”.",
+    "extract": "ction>\t\t\n\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/02.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/03.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/03.php",
+    "message": "Element “p” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+    "extract": ">\n\t\t\t\t\t\t\t\t<p class=\"text-right  mb50\">(W3C, "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/04.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/05.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zC9i1KkdHd4?rel=0\" title=\"Dragon Software\" frameborder=\"0\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Bad value “transcript/Dragon Professional Feature Demo.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<a href=\"transcript/Dragon Professional Feature Demo.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/tAyqWUoRLE4?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Bad value “transcript/Jeff Kofman.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<a href=\"transcript/Jeff Kofman.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/cLDIj7m9fX0?rel=0\" title=\"Word Dictation - transcript OC\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Bad value “transcript/Transcripts_Word dictation.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<a href=\"transcript/Transcripts_Word dictation.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/VmoV35y-9qE?rel=0\" title=\"The Colin McEnroe Show-Accessible Radio - ASL\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/06.php",
+    "message": "Bad value “transcript/Colin McEnroe Transcript.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<a href=\"transcript/Colin McEnroe Transcript.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/07.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/08.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/08.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/AyzmS5WeIx4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/08.php",
+    "message": "Bad value “transcript/How to Create an SRT File for Subtitles and Captions.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<a href=\"transcript/How to Create an SRT File for Subtitles and Captions.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/08.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1LNykyYw3DQ\" frameborder=\"0\" allowfullscreen title=\"Beyond Compliance Humber\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/09.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/10.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/11.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/11.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" title=\"1954 RCAmaster 21TVset Commercial\" src=\"https://www.youtube.com/embed/RQI7Wqrp9jI?rel=0\" frameborder=\"0\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/11.php",
+    "message": "Element “p” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<p class=\"tts no-show\">Right "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/11.php",
+    "message": "Element “p” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<p>The li"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/11.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn mt20\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/12.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"A Brief Look at Texting and the Internet in Film\" src=\"https://www.youtube.com/embed/uFfq2zblGXw?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/12.php",
+    "message": "No space between attributes.",
+    "extract": "answer-e\"><label class=\"right\"for=\"qu"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/12.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn multiplequestions mt10 tts\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/NCpokbJseNE?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" title=\"Walk off the Earth - Mike's Song (Lyric Video)\" src=\"https://www.youtube.com/embed/4DFgtsWnRQM?start=17?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rB9ql0L0cUQ?rel=0\" frameborder=\"0\" allowfullscreen title=\"How to Add Captions While Uploading & Editing Your Videos\"><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "r Videos\"><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "Videos\"><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Bad value “transcript/Youtube captions.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "20 mb20\">\n<a href=\"transcript/Youtube captions.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aQ-xe-GSjdA?rel=0\" frameborder=\"0\" allowfullscreen title=\"Meet Amara\"><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "et Amara\"><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": " Amara\"><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/13.php",
+    "message": "Bad value “transcript/Meet Amara.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "20 mb20\">\n<a href=\"transcript/Meet Amara.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/a-7V0as138M?rel=0\" title=\"DV CC Sample Movie Trailer\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Described Video (DV) PSA English: Hospital\" src=\"https://www.youtube.com/embed/KfTIN2m-GRk?rel=0\" frameborder=\"0\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EKGOWavFvHc?rel=0\" frameborder=\"0\" allowfullscreen title=\"Audio Described: We're The Superhumans | Rio Paralympics 2016 Trailer\"><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": " Trailer\"><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "railer\"><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/kGtW2hvjUJ8?rel=0\" frameborder=\"0\" allowfullscreen title=\"Everybody Technology - Stephen Hawking's Dream - Audio-Description version\"><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": " version\"><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ersion\"><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Duplicate attribute “title”.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xFT2PXnexZ8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen title=\"The D"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "een title=\"The Dick Van Dyke Show with described video\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Bad element name “labelfor=\"question-1-answer-d\"”: Code point “U+003D” is not allowed",
+    "extract": "answer-d\"><labelfor=\"question-1-answer-d\">Name o"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Stray end tag “label”.",
+    "extract": "he episode</label></p>\n\n"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "End tag “p” seen, but there were open elements.",
+    "extract": "de</label></p>\n\n\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Unclosed element “labelfor=\"question-1-answer-d\"”.",
+    "extract": "answer-d\"><labelfor=\"question-1-answer-d\">Name o"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/14.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn multiplequestions mt10 tts\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/15.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/15.php",
+    "message": "Duplicate attribute “title”.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GxpZd8L1Ty4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen title=\"About"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/15.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "een title=\"About AMI\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\n\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Described Video (DV) Example: Show Me Your Art\" src=\"https://www.youtube.com/embed/fFK98qW2VOw?rel=0\" frameborder=\"0\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\">\n\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Integrated Described video (IDV) Example: Show Me Your Art\" src=\"https://www.youtube.com/embed/sYrsvFCsHZk?rel=0\" frameborder=\"0\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open transcript pdf in new window</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "new window</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": " window</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\n\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Standard Audio Description - Ai-Media Example [AD]\" src=\"https://www.youtube.com/embed/ajWc9ZEa82s\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\n\n\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Extended Audio Description - Ai-Media Example [AD]\" src=\"https://www.youtube.com/embed/1cuwX0zPYLo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/17.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/18.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/18.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/18.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/18.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/18.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "0\">\n\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn multiplequestions mt10\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/19.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/03/20.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/01.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/02.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/02.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Screen Readers Reading WordPress Image Alt Text\" src=\"https://www.youtube.com/embed/5M_GSoMLTKI?rel=0\" frameborder=\"0\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/03.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/04.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/04.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn mt10\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/05.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/06.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/06.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn mt10\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/07.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/08.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/09.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/09.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.microsoft.com/en-us/videoplayer/embed/RWfo4X?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us\" title=\"Check Document Accessibility in Word\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/10.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/10.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.microsoft.com/en-us/videoplayer/embed/RE2OQW9?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us\" title=\"PowerPoint live captions and subtitles\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/11.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/11.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/G8EYDJ56c6k?rel=0\" title=\"PDF Accessibility: Using the Accessibility Checker\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/12.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/13.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/14.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/15.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/16.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/17.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/18.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/18.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/18.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/18.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/18.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/18.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/18.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "0\">\n\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn multiplequestions mt10\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/19.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/19.php",
+    "message": "Bad value “https://cnib.ca/sites/default/files/2018-07/CNIB Clear Print Guide.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\t\t\t\t\t\t\t<p><a href=\"https://cnib.ca/sites/default/files/2018-07/CNIB Clear Print Guide.pdf\" target=\"_blank\">Clear "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/19.php",
+    "message": "Bad value “https://www.visibilitymetrics.com/sites/default/files/downloads/Making Text Legible-Brochure.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\t\t\t\t\t\t\t<p><a href=\"https://www.visibilitymetrics.com/sites/default/files/downloads/Making Text Legible-Brochure.pdf\" target=\"_blank\">Guidel"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/19.php",
+    "message": "Bad value “https://www.visibilitymetrics.com/sites/default/files/downloads/Effective Color Contrast-Color Brochure.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "ss=\"mb30\"><a href=\"https://www.visibilitymetrics.com/sites/default/files/downloads/Effective Color Contrast-Color Brochure.pdf\" target=\"_blank\">Effect"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/19.php",
+    "message": "Bad value “https://ocul.on.ca/accessibility/sites/default/files/OCUL Accessibility Toolkit - ENG - v2.0 (May 2014).pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "ss=\"mb30\"><a href=\"https://ocul.on.ca/accessibility/sites/default/files/OCUL Accessibility Toolkit - ENG - v2.0 (May 2014).pdf\" target=\"_blank\">Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/04/20.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/01.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\" id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"overview split items-container\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/20SHvU2PKsM?rel=0\" title=\"Introduction to Web Accessibility and W3C Standards\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/02.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\" id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"overview split items-container\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/03.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\"  id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"overview split items-container\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor\" id=\"img-print\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/tfkzj5VC9P8?rel=0\" title=\"Web Accessibility Perspectives: Clear Layout and Design\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/Hui87z2Vx8o?rel=0\" title=\"Web Accessibility Perspectives: Colors with Good Contrast\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/04.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\" id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe src=\"https://player.vimeo.com/video/110965713\" width=\"640\" height=\"480\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen title=\"Leonie Watson: Design like we give a damn!\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"overview split items-container\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/05.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\"  id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"overview split items-container\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/Bhj5vs9P5cw?rel=0\" title=\"Assistive Technology in Action - Meet Jared\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper darkbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/06.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\"  id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"overview split items-container\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/Z5SmNkq0mZs?rel=0\" title=\"Fable Tech Lab's Abid Virani and Alwar Pillai on How to Build a More Inclusive Society\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "\t\t\t\t\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/07.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\"  id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "> -->\n\n\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper darkbgcolor\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/ITUDiTgAZY0?rel=0\" title=\"Introduction to WAVE\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/dyU9yrRJ5Eg?rel=0\" title=\"Getting started with the axe DevTools extension\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "= -->\n\n\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ection>\n\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/08.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "an>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</div>\n\t\t</s"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "\t</div>\n\t\t</section>\n\n\t\t<s"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ction>\n\n\t\t<section class=\"page-wrapper pb50\" id=\"maincontent\">\n\t\t\t<d"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"overview split items-container\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\t\t\n\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\t\t\n\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/09.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\" id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "> -->\n\n\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "= -->\n\n\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ection>\n\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/10.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "cript>\n\t\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\" id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"overview split items-container\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "\t\t\t\t\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/11.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "cript>\n\t\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\" id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"overview split items-container\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/Dgo9uoXhOyQ?rel=0\" title=\"Introduction to Web Accessibility and W3C Standards\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/W2S6CdqCxUc?rel=0\" title=\"Video Games - History\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/Re4PksVYlRo?rel=0\" title=\"Video Games - Hardware\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/EF20Ap0WEOs?rel=0\" title=\"Video Games - Accessibility Guidelines\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/NPcsvf4AigI?rel=0\" title=\"Video Games - Accessibility Guidelines - Motor Accessibility\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed//fPWItZXKEok?rel=0\" title=\"Video Games - Accessibility Guidelines - Hearing Accessibility\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/ZOA4EnuVutM?rel=0\" title=\"Video Games - Accessibility Guidelines - Vision Accessibility\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/CZZjgsdTttw?rel=0\" title=\"Video Games - Accessibility Guidelines - Game Difficulty\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/ZOA4EnuVutM?rel=0\" title=\"Video Games - Accessibility Guidelines - Vision Accessibility\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/CZZjgsdTttw?rel=0\" title=\"Video Games - Accessibility Guidelines - Game Difficulty\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/bucTogjtcMA?rel=0\" title=\"Video Games - Conclusion\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper darkbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/XQnnpzUvHZY?rel=0\" title=\"Access Granted\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "\t\t\t\t\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/12.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "cript>\n\t\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</section>\n\n\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "Unclosed element “div”.",
+    "extract": "mage\">\n\t\t\t<div class=\"wrapsection\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper\"  id=\"maincontent\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper whitebgcolor mt40-r\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/13.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper pb50\"  id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper accentbgcolor\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "ion>\n\n\t\t\t\t<section class=\"page-wrapper gray\">\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": " -->\n\n\t\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ction>\n\t\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/14.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "n>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "Unclosed element “strong”.",
+    "extract": "ext1 big\"><strong>Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "Unclosed element “span”.",
+    "extract": "\">\n\t\t\t\t\t\t\t<span class=\"text1 big\"><stron"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "iv>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "div>\n\t\t\t\t\t</div>\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</div>\n\t\t\t</"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "</div>\n\t\t\t</section>\n\n\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "tion>\n\n\t\t\t<section class=\"page-wrapper\"  id=\"maincontent\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "== -->\n\t\t\t<section class=\"page-wrapper pt0 gray\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "Element “section” not allowed as child of element “strong” in this context. (Suppressing further errors from this subtree.)",
+    "extract": "== -->\n\t\t\t<section id=\"footer\" class=\"footer2\">\n\t<div"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "End tag “div” seen, but there were open elements.",
+    "extract": "ection>\n\t\t</div>\n<!-- "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/05/15.php",
+    "message": "End tag for  “body” seen, but there were unclosed elements.",
+    "extract": "/script>\n\n</body>\n</htm"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/01.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/02.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/02.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/3oDOud3PVvo?rel=0\" title=\"Making Live Captions\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/02.php",
+    "message": "Bad value “transcript/EBG transcript.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<a href=\"transcript/EBG transcript.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/03.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/04.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/04.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Enable Live Caption in Google Chrome\" src=\"https://www.youtube.com/embed/KDP8a5s8yaU?rel=0\" frameborder=\"0\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/04.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/04.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/04.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/04.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/05.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/05.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Live Captioning Explained in 12 Seconds\" src=\"https://www.youtube.com/embed/8DA_-V0cdR4?rel=0\" frameborder=\"0\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/05.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/05.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/05.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/05.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/06.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/07.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/08.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/09.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/09.php",
+    "message": "Bad value “images/Edward Hopper painting verbal description.jpg” for attribute “src” on element “img”: Illegal character in path segment: space is not allowed.",
+    "extract": "\n\n\t\t\t\t\t\t\t\t<img class=\"full-img mb30\" src=\"images/Edward Hopper painting verbal description.jpg\" alt=\"Colour pencil drawing of a Coleman stove, with Robin Hood Flour and Tenderflake.\">\n\n\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/09.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn mt10\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/10.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/10.php",
+    "message": "Duplicate attribute “title”.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GCcuvl76Ouk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen title=\"No Wo"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/10.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "een title=\"No Woman, No Cry by Chris Ofili | Artwork Audio Description | Tate\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/10.php",
+    "message": "Bad value “transcript/No Woman, No Cry.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<a href=\"transcript/No Woman, No Cry.pdf\" target=\"_blank\" class=\"btn btn-primary transcript-btn mt10\">PDF Tr"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/10.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/m0t3sbFVNbI?rel=0\" title=\"Multisensory Museum: Mingyan Wei\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/11.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/11.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\n\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yhL1O0gZ8Ug\" title=\"Simple Text Captioning Demonstration\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/11.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/4-H-1o-e4Vk?rel=0\" title=\"Drake Music Scotland - From Edinburgh to Singapore!\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/12.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/12.php",
+    "message": "Bad value “http://www.harbourfrontcentre.com/images/festivals/2019/cripping/CTA Access Guide.pdf” for attribute “href” on element “a”: Illegal character in path segment: space is not allowed.",
+    "extract": "rehensive <a href=\"http://www.harbourfrontcentre.com/images/festivals/2019/cripping/CTA Access Guide.pdf\" target=\"_blank\">Access"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/13.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/13.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sRyLTkxrFKA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" title=\"ReelAbilities Film Festival, Toronto\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/13.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/14.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/14.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MB3lEIEFbTw?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" title=\"Access to live music for disabled audiences: Glastonbury Festival & Band on the Wall\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/14.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/15.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/15.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EuD2iNVMS_4?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" title=\"How sign language innovators are bringing music to the deaf\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/15.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/15.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/15.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/15.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/16.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/16.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/K6CTpN6UMKQ?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" title=\"Enter Sandman || Elise Trouw X Travis Barker X Paul Raci || Sound of Metal\" allowfullscreen><span "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "ullscreen><span cl"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "lscreen><span class=\"aria-visible\">open a video</span"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "en a video</span></"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/16.php",
+    "message": "Text not allowed in element “iframe” in this context.",
+    "extract": "a video</span></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/16.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/lang/en/christine_sun_kim_the_enchanting_music_of_sign_language\" width=\"854\" height=\"480\" style=\"position:absolute;left:0;top:0;width:100%;height:100%\" frameborder=\"0\" scrolling=\"no\" allowfullscreen=\"\" title=\"I am not your inspiration, thank you very much\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/16.php",
+    "message": "The “scrolling” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": ">\n\t\t\t\t\t\t\t\t<iframe src=\"https://embed.ted.com/talks/lang/en/christine_sun_kim_the_enchanting_music_of_sign_language\" width=\"854\" height=\"480\" style=\"position:absolute;left:0;top:0;width:100%;height:100%\" frameborder=\"0\" scrolling=\"no\" allowfullscreen=\"\" title=\"I am not your inspiration, thank you very much\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/16.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\n\t\t\t\t\t\t\t\t<iframe src=\"https://player.vimeo.com/video/380091657?h=c39cca8e0b\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" title=\"Elevator Pitch\" allowfullscreen style=\"position:absolute;left:0;top:0;width:100%;height:100%\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/17.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/17.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\n\t\t\t\t\t\t\t\t<iframe width=\"1280\" height=\"720\" title=\"Spoken Without Words: Poetry with ASL SLAM\" src=\"https://www.youtube.com/embed/dmsqXwnqIw4?rel=0\" frameborder=\"0\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/17.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "elative;\"><iframe src=\"https://player.vimeo.com/video/514501696?h=5f110afc52\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/18.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/18.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" title=\"Access Awareness & Relaxed Performance Training - HD\" src=\"https://www.youtube.com/embed/v2UUaIN7ZZY?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/19.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/19.php",
+    "message": "Duplicate attribute “title”.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LEEktf38sdw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen title=\"Relax"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/19.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "een title=\"Relaxed Performance - Audio Description with Captions\"></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/20.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/20.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" title=\"Feel the music: Deaf children sense sounds in Switzerland\" src=\"https://www.youtube.com/embed/CDpE1ajC4mo?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/20.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" title=\"Music workshop with students from the Victorian College for the Deaf\" src=\"https://www.youtube.com/embed/xBG-PuS5FEE?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/20.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" title=\"Sesame Street: Evelyn Glennie Plays the Drums\" src=\"https://www.youtube.com/embed/jVw5KawqUIg?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/20.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/J5AhU5Q7vH0?rel=0\" title=\"The Linda Lindas - 'Racist, Sexist Boy' (Live at LA Public Library)\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/20.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/sCBn-70_HcE?rel=0\" title=\"The Linda Lindas - 'Racist, Sexist Boy' (Live at LA Public Library)\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/21.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/22.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/22.php",
+    "message": "Bad value “__Blank” for attribute “target” on element “a”: Reserved keyword “_blank” used.",
+    "extract": "\t\t\t\t\t\t\t<p><a href=\"http://drakemusicscotland.org/what-we-do/technology/\" target=\"__Blank\">Drake "
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/23.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/23.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/n6oSeODGmoQ?rel=0\" title=\"Gaelynn Lea: NPR Music Tiny Desk Concert\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/23.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/akGYugciSVw?rel=0\" title=\"TEDX Talk, Sexuality and Disability: Forging Identity in a World that Leaves You Out\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/23.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\t\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/h5qQU2EwVnM?rel=0\" title=\"TEDX Talk, Sexuality and Disability: Forging Identity in a World that Leaves You Out\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/24.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/24.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/24.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/24.php",
+    "message": "Attribute “clas” not allowed on element “p” at this point.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<p clas=\"tts\"><input"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/24.php",
+    "message": "Attribute “href” not allowed on element “button” at this point.",
+    "extract": "0\">\n\t\t\t\t\t\t<button class=\"btn btn-primary btn-submit check-btn multiplequestions mt10\" href=\"\">Check<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/25.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/25.php",
+    "message": "The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.",
+    "extract": "\n\t\t\t\t\t\t\t\t\t<iframe width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/zJtbz9Cn2kg?rel=0\" title=\"ReelAbiliities Festival Advertisement\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></ifra"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/25.php",
+    "message": "End tag “section” seen, but there were open elements.",
+    "extract": "/div>\n\t\t\t\t</section>\n\n\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/25.php",
+    "message": "Unclosed element “div”.",
+    "extract": "</h1>\n\t\t\t\t<div class=\"text-left\">\t\n\t\t\t\t"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/25.php",
+    "message": "Unclosed element “div”.",
+    "extract": "tent\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/26.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/06/27.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/modules/07/team.php",
+    "message": "A “meta” element with an “http-equiv” attribute whose value is “X-UA-Compatible” must have a “content” attribute with the value “IE=edge”.",
+    "extract": ">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\t<met"
+},
+{
+    "url": "http://humber.ca/makingaccessiblemedia/fr/index.html",
+    "subType": "io",
+    "message": "HTTP resource not retrievable. The HTTP status from the remote server was: 404."
+}];

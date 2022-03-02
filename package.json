@@ -1,0 +1,29 @@
+{
+  "name": "a11y-testing",
+  "version": "1.0.0",
+  "description": "Website accessibility automated testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node compile.js test",
+    "compile": "node compile.js",
+    "generate": "node generate.js",
+    "default": "npm run compile && npm run generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonborer/a11y-testing.git"
+  },
+  "author": "Simon Borer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonborer/a11y-testing/issues"
+  },
+  "homepage": "https://github.com/simonborer/a11y-testing#readme",
+  "devDependencies": {
+    "html-minifier": "^4.0.0"
+  },
+  "dependencies": {
+    "@axe-core/webdriverjs": "^4.4.0",
+    "jsonminify": "^0.4.2"
+  }
+}
